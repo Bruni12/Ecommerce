@@ -11,6 +11,7 @@ import './style/main.scss';
 
 import Layout from "./components/layout";
 
+
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
@@ -20,8 +21,7 @@ function main() {
         </Layout>
       </BrowserRouter>
     </Provider>,
-    document.querySelector(".app-wrapper")
-  );
-}
+    document.querySelector('.app-wrapper'));
+  }
 
-document.addEventListener("DOMContentLoaded", main);
+document.addEventListener('DOMContentLoaded', main);
