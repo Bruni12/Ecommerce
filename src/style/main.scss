@@ -2,7 +2,6 @@
 
 html {
     font-size: 62.5%;
-
 }
 
 *,
@@ -10,14 +9,13 @@ html {
 *::before {
     margin: 0;
     padding: 0;
-    box_sizing: inherit;
+    box-sizing: inherit;
 }
-
-
-
 
 
 @import 'layout';
 @import 'headernavbar';
 @import 'auth/signin';
 @import 'auth/signup';
+
+@import 'page-title';
