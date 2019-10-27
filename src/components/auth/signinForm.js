@@ -43,11 +43,11 @@ class SignInForm extends Component {
                 component={FormInput}/>
                 <div className='sign-in-form__line'></div>
                 <Field className='sign-in-form__login'
-                onClick={() => console.log('tryna submit')}
+                onClick={() => history.push('/account')}
                 type='submit'
                 title='Login'
                 name='login'
-                component={FormButton}/>               
+                component={FormButton}/>
                 <Details className='sign-in-form__details' title='QuickLinks' links={links}/>
             </form>
         )
