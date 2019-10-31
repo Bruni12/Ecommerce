@@ -14,7 +14,7 @@ class Account extends Component {
             {
                 _id: 0,
                 title: 'Shop',
-                path: './shop'
+                path: '/shop'
             },
             {
                 _id: 1,
@@ -23,7 +23,7 @@ class Account extends Component {
             }
         ]
 
-         const navbarLinks = [
+        const navbarLinks = [
             {
                 _id: 0,
                 title: 'Purchase History',
