@@ -11,7 +11,7 @@ function PurchaseDetailLabel({className, title, value}) {
 }
 
 // total: 19.40,
-// creditCard: '-0000',
+// creditCard: '-0000', 
 
 
 
